@@ -33,6 +33,7 @@ function App() {
 
   return (
     <div>
+      {/* test push */}
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses expenses={expenses} />
     </div>
